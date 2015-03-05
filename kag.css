@@ -1,11 +1,9 @@
-body
-{
+body {
     background-size: 100%;
-    background-image:url('rosettes.jpg');
-    background-color:#B2B2B2;
+    background-image: url('rosettes.jpg');
+    background-color: #B2B2B2;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
 }
 
 h1 {
@@ -16,28 +14,27 @@ h1 {
     display: inline;
 } 
 
-p {
+h2 {
     font-family: Arbutus Slab, serif;
     color: white;
-    margin-top: 150px;
-    font-size:22px
 }
 
 a {
-    text-decoration: none
-}a:link, a:visited {
-    color: white
+    text-decoration: none;
+    padding: 0px 10px 0px 10px;
+}
+a:link, a:visited {
+    color: white;
 }
 
 .circle {
     border-radius: 50%;
-    width: 500px;
-    height: 200px; 
-    background-color: rgba(0,0,0,0.4);
-    padding: 50px;
-    display:table;
-
-    text-align:center;
+    width: 700px;
+    height: 300px; 
+    background-color: rgba(0,0,0,0.6);
+    padding: 40px;
+    display: table;
+    text-align: center;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -50,6 +47,6 @@ a {
 }
 
 .shiny:hover {
-    color:#FF3300
+    color:#FF3300;
 }
 
